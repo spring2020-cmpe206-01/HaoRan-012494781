@@ -1,13 +1,13 @@
-# project ns (3.30.1) configured on Tue Feb  4 21:46:39 2020 by
+# project ns (3.30.1) configured on Wed Feb  5 21:45:56 2020 by
 # waf 2.0.18 (abi 20, python 30800f0 on darwin)
-# using ./waf configure --enable-tests
+# using ./waf configure
 #
 ----------------------------------------
 Setting top to
-/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1
+/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1
 ----------------------------------------
 Setting out to
-/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build
+/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build
 ----------------------------------------
 Checking for 'clang' (C compiler)
 find program=['clang'] paths=['/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/bin', '/Library/Frameworks/Python.framework/Versions/3.8/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/Applications/VMware Fusion.app/Contents/Public', '/usr/local/go/bin', '/usr/local/share/dotnet', '~/.dotnet/tools', '/Library/Frameworks/Mono.framework/Versions/Current/Commands', '/Applications/Wireshark.app/Contents/MacOS', '/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin'] var='CC' -> ['/usr/bin/clang']
@@ -756,16 +756,16 @@ int main() { return 0; }
 <==
 [1/1] Compiling [32mbuild/.conf_check_92724e97d2a8131cdbabec48e168cdc4/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_92724e97d2a8131cdbabec48e168cdc4/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_92724e97d2a8131cdbabec48e168cdc4/testbuild/test.cpp.1.o']
 ok
 ------------------------------------------------
 Checking boost includes
 headers not found, please provide a --boost-includes argument (see help)
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1: The configuration failed
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1: The configuration failed
 ------------------------------------------------
 Checking boost includes
 headers not found, please provide a --boost-includes argument (see help)
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1: The configuration failed
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1: The configuration failed
 ------------------------------------------------
 Checking for program 'python'
 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3
@@ -875,10 +875,10 @@ int main(int argc, char **argv)
 <==
 [1/2] Compiling [32mbuild/.conf_check_f8ef775e3cf1f559b692147c1226d7ba/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-fno-common', '-dynamic', '-g', '-fwrapv', '-O3', '-arch', 'x86_64', '-g', '-I/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3.8/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3.8/site-packages"', '-DNDEBUG', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_f8ef775e3cf1f559b692147c1226d7ba/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-fno-common', '-dynamic', '-g', '-fwrapv', '-O3', '-arch', 'x86_64', '-g', '-I/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3.8/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3.8/site-packages"', '-DNDEBUG', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_f8ef775e3cf1f559b692147c1226d7ba/testbuild/test.cpp.1.o']
 [2/2] Linking [33mbuild/.conf_check_f8ef775e3cf1f559b692147c1226d7ba/testbuild/testprog[0m
 
-['/usr/bin/clang++', '-arch', 'x86_64', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_f8ef775e3cf1f559b692147c1226d7ba/testbuild/testprog', '-framework', 'CoreFoundation', '-L/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/config-3.8-darwin', '-lpython3.8', '-ldl', '-lpython3.8', '-ldl']
+['/usr/bin/clang++', '-arch', 'x86_64', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_f8ef775e3cf1f559b692147c1226d7ba/testbuild/testprog', '-framework', 'CoreFoundation', '-L/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/config-3.8-darwin', '-lpython3.8', '-ldl', '-lpython3.8', '-ldl']
 yes
 --------------------------------------------------------------------------
 Asking python-config for pyext '--cflags --libs --ldflags' flags
@@ -916,10 +916,10 @@ int main(int argc, char **argv)
 <==
 [1/2] Compiling [32mbuild/.conf_check_eaab107a0ad0c09fe99b0e743a890f00/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-fPIC', '-fno-common', '-dynamic', '-g', '-fwrapv', '-O3', '-arch', 'x86_64', '-g', '-fPIC', '-I/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3.8/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3.8/site-packages"', '-DHAVE_PYEMBED=1', '-DNDEBUG', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_eaab107a0ad0c09fe99b0e743a890f00/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-fPIC', '-fno-common', '-dynamic', '-g', '-fwrapv', '-O3', '-arch', 'x86_64', '-g', '-fPIC', '-I/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3.8/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3.8/site-packages"', '-DHAVE_PYEMBED=1', '-DNDEBUG', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_eaab107a0ad0c09fe99b0e743a890f00/testbuild/test.cpp.1.o']
 [2/2] Linking [33mbuild/.conf_check_eaab107a0ad0c09fe99b0e743a890f00/testbuild/testprog.cpython-38-darwin.so[0m
 
-['/usr/bin/clang++', '-arch', 'x86_64', '-bundle', '-undefined', 'dynamic_lookup', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_eaab107a0ad0c09fe99b0e743a890f00/testbuild/testprog.cpython-38-darwin.so', '-framework', 'CoreFoundation', '-L/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/config-3.8-darwin', '-ldl', '-ldl']
+['/usr/bin/clang++', '-arch', 'x86_64', '-bundle', '-undefined', 'dynamic_lookup', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_eaab107a0ad0c09fe99b0e743a890f00/testbuild/testprog.cpython-38-darwin.so', '-framework', 'CoreFoundation', '-L/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/config-3.8-darwin', '-ldl', '-ldl']
 yes
 --------------------------------------------------------------------------
 Checking for compilation flag -Wno-array-bounds support
@@ -928,7 +928,7 @@ int main() { return 0; }
 <==
 [1/1] Compiling [32mbuild/.conf_check_92724e97d2a8131cdbabec48e168cdc4/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-Wno-array-bounds', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3.8/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3.8/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_92724e97d2a8131cdbabec48e168cdc4/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-Wno-array-bounds', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3.8/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3.8/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_92724e97d2a8131cdbabec48e168cdc4/testbuild/test.cpp.1.o']
 ok
 --------------------------------------------------------------------------
 Checking for pybindgen location
@@ -958,7 +958,7 @@ int main ()
 <==
 [1/1] Compiling [32mbuild/.conf_check_08a49a4b8e55fc7f07fb5fa692be882c/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3.8/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3.8/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_08a49a4b8e55fc7f07fb5fa692be882c/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3.8/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3.8/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_08a49a4b8e55fc7f07fb5fa692be882c/testbuild/test.cpp.1.o']
 err: ../test.cpp:7:28: error: no viable conversion from 'vector<unsigned long>' to 'vector<uint64_t>'
    std::vector< uint64_t > t = std::vector< unsigned long > ();
                            ^   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -973,16 +973,16 @@ err: ../test.cpp:7:28: error: no viable conversion from 'vector<unsigned long>' 
     ^
 1 error generated.
 
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/bindings/python: Test does not build: Traceback (most recent call last):
-  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Configure.py", line 333, in run_build
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/bindings/python: Test does not build: Traceback (most recent call last):
+  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Configure.py", line 333, in run_build
     bld.compile()
-  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Build.py", line 176, in compile
+  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Build.py", line 176, in compile
     raise Errors.BuildError(self.producer.error)
 waflib.Errors.BuildError: Build failed
  -> task in 'testprog' failed with exit status 1 (run with -v to display more information)
 
 no
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/bindings/python: The configuration failed
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/bindings/python: The configuration failed
 --------------------------------------------------------------------------
 Checking for types uint64_t and unsigned long equivalence
 yes
@@ -1002,7 +1002,7 @@ int main ()
 <==
 [1/1] Compiling [32mbuild/.conf_check_ea09671089e1dae4ca451449dba25145/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3.8/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3.8/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_ea09671089e1dae4ca451449dba25145/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3.8/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3.8/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_ea09671089e1dae4ca451449dba25145/testbuild/test.cpp.1.o']
 yes
 --------------------------------------------------------------------------
 Checking for types uint64_t and unsigned long long equivalence
@@ -1024,22 +1024,22 @@ int main ()
 <==
 [1/2] Compiling [32mbuild/.conf_check_5fe4043d889dab0109c4a956a6a1046f/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3.8/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3.8/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_5fe4043d889dab0109c4a956a6a1046f/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3.8/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3.8/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_5fe4043d889dab0109c4a956a6a1046f/testbuild/test.cpp.1.o']
 err: ../test.cpp:5:15: error: no type named '__si_class_type_info' in namespace '__cxxabiv1'
    const abi::__si_class_type_info *_typeinfo  __attribute__((unused)) = NULL;
          ~~~~~^
 1 error generated.
 
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/bindings/python: Test does not build: Traceback (most recent call last):
-  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Configure.py", line 333, in run_build
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/bindings/python: Test does not build: Traceback (most recent call last):
+  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Configure.py", line 333, in run_build
     bld.compile()
-  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Build.py", line 176, in compile
+  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Build.py", line 176, in compile
     raise Errors.BuildError(self.producer.error)
 waflib.Errors.BuildError: Build failed
  -> task in 'testprog' failed with exit status 1 (run with -v to display more information)
 
 incomplete
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/bindings/python: The configuration failed
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/bindings/python: The configuration failed
 --------------------------------------------------------------------------
 Checking for python module 'pygccxml'
 ['/Library/Frameworks/Python.framework/Versions/3.8/bin/python3', '-c', "\nimport pygccxml as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n\tprint(str(version))\nelse:\n\tprint('unknown version')\n"]
@@ -1048,7 +1048,7 @@ err: Traceback (most recent call last):
 ModuleNotFoundError: No module named 'pygccxml'
 
 not found
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/bindings/python: Could not find the python module 'pygccxml'
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/bindings/python: Could not find the python module 'pygccxml'
 --------------------------------------------------------------------------
 Checking for click location
 not found
@@ -1056,12 +1056,12 @@ not found
 Checking for program 'pkg-config'
 not found
 find program=['pkg-config'] paths=['/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/bin', '/Library/Frameworks/Python.framework/Versions/3.8/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/Applications/VMware Fusion.app/Contents/Public', '/usr/local/go/bin', '/usr/local/share/dotnet', '~/.dotnet/tools', '/Library/Frameworks/Mono.framework/Versions/Current/Commands', '/Applications/Wireshark.app/Contents/MacOS', '/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin'] var='PKGCONFIG' -> None
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/config-store: Could not find the program ['pkg-config']
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/config-store: Could not find the program ['pkg-config']
 --------------------------------------------------------------------------
 Checking for program 'pkg-config'
 not found
 find program=['pkg-config'] paths=['/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/bin', '/Library/Frameworks/Python.framework/Versions/3.8/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/Applications/VMware Fusion.app/Contents/Public', '/usr/local/go/bin', '/usr/local/share/dotnet', '~/.dotnet/tools', '/Library/Frameworks/Mono.framework/Versions/Current/Commands', '/Applications/Wireshark.app/Contents/MacOS', '/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin'] var='PKGCONFIG' -> None
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/config-store: Could not find the program ['pkg-config']
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/config-store: Could not find the program ['pkg-config']
 --------------------------------------------------------------------------
 checking for uint128_t
 ==>
@@ -1078,7 +1078,7 @@ checking for uint128_t
 <==
 [1/2] Compiling [32mbuild/.conf_check_facce93b27c0b28e5964dbe835d44fd5/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_facce93b27c0b28e5964dbe835d44fd5/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_facce93b27c0b28e5964dbe835d44fd5/testbuild/test.cpp.1.o']
 err: ../test.cpp:6:7: error: use of undeclared identifier 'uint128_t'
         if ((uint128_t *) 0) return 0;
              ^
@@ -1090,16 +1090,16 @@ err: ../test.cpp:6:7: error: use of undeclared identifier 'uint128_t'
                     ^
 3 errors generated.
 
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/core: Test does not build: Traceback (most recent call last):
-  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Configure.py", line 333, in run_build
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/core: Test does not build: Traceback (most recent call last):
+  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Configure.py", line 333, in run_build
     bld.compile()
-  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Build.py", line 176, in compile
+  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Build.py", line 176, in compile
     raise Errors.BuildError(self.producer.error)
 waflib.Errors.BuildError: Build failed
  -> task in 'testprog' failed with exit status 1 (run with -v to display more information)
 
 not found
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/core: The configuration failed
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/core: The configuration failed
 --------------------------------------------------------------------------
 checking for __uint128_t
 ==>
@@ -1116,10 +1116,10 @@ checking for __uint128_t
 <==
 [1/2] Compiling [32mbuild/.conf_check_b56575a1cf831cd90b0428197c1674e0/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_b56575a1cf831cd90b0428197c1674e0/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_b56575a1cf831cd90b0428197c1674e0/testbuild/test.cpp.1.o']
 [2/2] Linking [33mbuild/.conf_check_b56575a1cf831cd90b0428197c1674e0/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_b56575a1cf831cd90b0428197c1674e0/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_b56575a1cf831cd90b0428197c1674e0/testbuild/testprog']
 yes
 --------------------------------------------------------------------------
 Checking high precision implementation
@@ -1137,10 +1137,10 @@ int main(int argc, char **argv) {
 <==
 [1/2] Compiling [32mbuild/.conf_check_87dc75f4d5a4d81d3de89ccc66d2f410/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_87dc75f4d5a4d81d3de89ccc66d2f410/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_87dc75f4d5a4d81d3de89ccc66d2f410/testbuild/test.cpp.1.o']
 [2/2] Linking [33mbuild/.conf_check_87dc75f4d5a4d81d3de89ccc66d2f410/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_87dc75f4d5a4d81d3de89ccc66d2f410/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_87dc75f4d5a4d81d3de89ccc66d2f410/testbuild/testprog']
 yes
 --------------------------------------------------------------------------
 Checking for header inttypes.h
@@ -1155,10 +1155,10 @@ int main(int argc, char **argv) {
 <==
 [1/2] Compiling [32mbuild/.conf_check_71902e4db1e1fb33866f0d1c21c77ee8/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_71902e4db1e1fb33866f0d1c21c77ee8/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_71902e4db1e1fb33866f0d1c21c77ee8/testbuild/test.cpp.1.o']
 [2/2] Linking [33mbuild/.conf_check_71902e4db1e1fb33866f0d1c21c77ee8/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_71902e4db1e1fb33866f0d1c21c77ee8/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_71902e4db1e1fb33866f0d1c21c77ee8/testbuild/testprog']
 yes
 --------------------------------------------------------------------------
 Checking for header sys/inttypes.h
@@ -1173,22 +1173,22 @@ int main(int argc, char **argv) {
 <==
 [1/2] Compiling [32mbuild/.conf_check_ab3a88ef84bcf481a1b44e59b9acea7f/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_ab3a88ef84bcf481a1b44e59b9acea7f/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_ab3a88ef84bcf481a1b44e59b9acea7f/testbuild/test.cpp.1.o']
 err: ../test.cpp:1:10: fatal error: 'sys/inttypes.h' file not found
 #include <sys/inttypes.h>
          ^~~~~~~~~~~~~~~~
 1 error generated.
 
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/core: Test does not build: Traceback (most recent call last):
-  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Configure.py", line 333, in run_build
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/core: Test does not build: Traceback (most recent call last):
+  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Configure.py", line 333, in run_build
     bld.compile()
-  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Build.py", line 176, in compile
+  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Build.py", line 176, in compile
     raise Errors.BuildError(self.producer.error)
 waflib.Errors.BuildError: Build failed
  -> task in 'testprog' failed with exit status 1 (run with -v to display more information)
 
 not found
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/core: The configuration failed
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/core: The configuration failed
 --------------------------------------------------------------------------
 Checking for header sys/types.h
 ==>
@@ -1202,10 +1202,10 @@ int main(int argc, char **argv) {
 <==
 [1/2] Compiling [32mbuild/.conf_check_a1f5eb99781ed72d6f7c486a9233dce5/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_a1f5eb99781ed72d6f7c486a9233dce5/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_a1f5eb99781ed72d6f7c486a9233dce5/testbuild/test.cpp.1.o']
 [2/2] Linking [33mbuild/.conf_check_a1f5eb99781ed72d6f7c486a9233dce5/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_a1f5eb99781ed72d6f7c486a9233dce5/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_a1f5eb99781ed72d6f7c486a9233dce5/testbuild/testprog']
 yes
 --------------------------------------------------------------------------
 Checking for header sys/stat.h
@@ -1220,10 +1220,10 @@ int main(int argc, char **argv) {
 <==
 [1/2] Compiling [32mbuild/.conf_check_df624e4ac3a4507c87a576ef6f3a3e18/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_df624e4ac3a4507c87a576ef6f3a3e18/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_df624e4ac3a4507c87a576ef6f3a3e18/testbuild/test.cpp.1.o']
 [2/2] Linking [33mbuild/.conf_check_df624e4ac3a4507c87a576ef6f3a3e18/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_df624e4ac3a4507c87a576ef6f3a3e18/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_df624e4ac3a4507c87a576ef6f3a3e18/testbuild/testprog']
 yes
 --------------------------------------------------------------------------
 Checking for header dirent.h
@@ -1238,10 +1238,10 @@ int main(int argc, char **argv) {
 <==
 [1/2] Compiling [32mbuild/.conf_check_b1c5fd3b060471dcecfecbeb771fc0d1/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_b1c5fd3b060471dcecfecbeb771fc0d1/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_b1c5fd3b060471dcecfecbeb771fc0d1/testbuild/test.cpp.1.o']
 [2/2] Linking [33mbuild/.conf_check_b1c5fd3b060471dcecfecbeb771fc0d1/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_b1c5fd3b060471dcecfecbeb771fc0d1/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_b1c5fd3b060471dcecfecbeb771fc0d1/testbuild/testprog']
 yes
 --------------------------------------------------------------------------
 Checking for header stdlib.h
@@ -1256,10 +1256,10 @@ int main(int argc, char **argv) {
 <==
 [1/2] Compiling [32mbuild/.conf_check_d5daedb867ba66fc80d74a2aecccd048/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_d5daedb867ba66fc80d74a2aecccd048/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_d5daedb867ba66fc80d74a2aecccd048/testbuild/test.cpp.1.o']
 [2/2] Linking [33mbuild/.conf_check_d5daedb867ba66fc80d74a2aecccd048/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_d5daedb867ba66fc80d74a2aecccd048/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_d5daedb867ba66fc80d74a2aecccd048/testbuild/testprog']
 yes
 --------------------------------------------------------------------------
 Checking for header signal.h
@@ -1274,10 +1274,10 @@ int main(int argc, char **argv) {
 <==
 [1/2] Compiling [32mbuild/.conf_check_6f58fe0695dffc1ac60ac25f8cc70c24/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_6f58fe0695dffc1ac60ac25f8cc70c24/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_6f58fe0695dffc1ac60ac25f8cc70c24/testbuild/test.cpp.1.o']
 [2/2] Linking [33mbuild/.conf_check_6f58fe0695dffc1ac60ac25f8cc70c24/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_6f58fe0695dffc1ac60ac25f8cc70c24/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_6f58fe0695dffc1ac60ac25f8cc70c24/testbuild/testprog']
 yes
 --------------------------------------------------------------------------
 Checking for header pthread.h
@@ -1294,10 +1294,10 @@ int main ()
 <==
 [1/2] Compiling [32mbuild/.conf_check_f7c0fffd93df9fe1a80ff12c0ddf12dd/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_f7c0fffd93df9fe1a80ff12c0ddf12dd/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_f7c0fffd93df9fe1a80ff12c0ddf12dd/testbuild/test.cpp.1.o']
 [2/2] Linking [33mbuild/.conf_check_f7c0fffd93df9fe1a80ff12c0ddf12dd/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_f7c0fffd93df9fe1a80ff12c0ddf12dd/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_f7c0fffd93df9fe1a80ff12c0ddf12dd/testbuild/testprog']
 yes
 --------------------------------------------------------------------------
 Checking for header stdint.h
@@ -1312,10 +1312,10 @@ int main(int argc, char **argv) {
 <==
 [1/2] Compiling [32mbuild/.conf_check_87dc75f4d5a4d81d3de89ccc66d2f410/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_87dc75f4d5a4d81d3de89ccc66d2f410/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_87dc75f4d5a4d81d3de89ccc66d2f410/testbuild/test.cpp.1.o']
 [2/2] Linking [33mbuild/.conf_check_87dc75f4d5a4d81d3de89ccc66d2f410/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_87dc75f4d5a4d81d3de89ccc66d2f410/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_87dc75f4d5a4d81d3de89ccc66d2f410/testbuild/testprog']
 yes
 --------------------------------------------------------------------------
 Checking for header inttypes.h
@@ -1330,10 +1330,10 @@ int main(int argc, char **argv) {
 <==
 [1/2] Compiling [32mbuild/.conf_check_71902e4db1e1fb33866f0d1c21c77ee8/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_71902e4db1e1fb33866f0d1c21c77ee8/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_71902e4db1e1fb33866f0d1c21c77ee8/testbuild/test.cpp.1.o']
 [2/2] Linking [33mbuild/.conf_check_71902e4db1e1fb33866f0d1c21c77ee8/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_71902e4db1e1fb33866f0d1c21c77ee8/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_71902e4db1e1fb33866f0d1c21c77ee8/testbuild/testprog']
 yes
 --------------------------------------------------------------------------
 Checking for header sys/inttypes.h
@@ -1348,22 +1348,22 @@ int main(int argc, char **argv) {
 <==
 [1/2] Compiling [32mbuild/.conf_check_ab3a88ef84bcf481a1b44e59b9acea7f/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_ab3a88ef84bcf481a1b44e59b9acea7f/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_ab3a88ef84bcf481a1b44e59b9acea7f/testbuild/test.cpp.1.o']
 err: ../test.cpp:1:10: fatal error: 'sys/inttypes.h' file not found
 #include <sys/inttypes.h>
          ^~~~~~~~~~~~~~~~
 1 error generated.
 
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/core: Test does not build: Traceback (most recent call last):
-  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Configure.py", line 333, in run_build
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/core: Test does not build: Traceback (most recent call last):
+  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Configure.py", line 333, in run_build
     bld.compile()
-  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Build.py", line 176, in compile
+  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Build.py", line 176, in compile
     raise Errors.BuildError(self.producer.error)
 waflib.Errors.BuildError: Build failed
  -> task in 'testprog' failed with exit status 1 (run with -v to display more information)
 
 not found
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/core: The configuration failed
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/core: The configuration failed
 --------------------------------------------------------------------------
 Checking for library rt
 ==>
@@ -1376,23 +1376,23 @@ int main(int argc, char **argv) {
 <==
 [1/2] Compiling [32mbuild/.conf_check_ab72690583f2973c46ae66ff926bf40d/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_ab72690583f2973c46ae66ff926bf40d/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_ab72690583f2973c46ae66ff926bf40d/testbuild/test.cpp.1.o']
 [2/2] Linking [33mbuild/.conf_check_ab72690583f2973c46ae66ff926bf40d/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_ab72690583f2973c46ae66ff926bf40d/testbuild/testprog', '-lrt']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_ab72690583f2973c46ae66ff926bf40d/testbuild/testprog', '-lrt']
 err: ld: library not found for -lrt
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/core: Test does not build: Traceback (most recent call last):
-  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Configure.py", line 333, in run_build
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/core: Test does not build: Traceback (most recent call last):
+  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Configure.py", line 333, in run_build
     bld.compile()
-  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Build.py", line 176, in compile
+  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Build.py", line 176, in compile
     raise Errors.BuildError(self.producer.error)
 waflib.Errors.BuildError: Build failed
  -> task in 'testprog' failed with exit status 1 (run with -v to display more information)
 
 not found
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/core: The configuration failed
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/core: The configuration failed
 --------------------------------------------------------------------------
 Checking for header sys/ioctl.h
 ==>
@@ -1406,10 +1406,10 @@ int main(int argc, char **argv) {
 <==
 [1/2] Compiling [32mbuild/.conf_check_a500e4e04895f8dce012d09437dc914c/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_a500e4e04895f8dce012d09437dc914c/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_a500e4e04895f8dce012d09437dc914c/testbuild/test.cpp.1.o']
 [2/2] Linking [33mbuild/.conf_check_a500e4e04895f8dce012d09437dc914c/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_a500e4e04895f8dce012d09437dc914c/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_a500e4e04895f8dce012d09437dc914c/testbuild/testprog']
 yes
 --------------------------------------------------------------------------
 Checking for header net/if.h
@@ -1424,10 +1424,10 @@ int main(int argc, char **argv) {
 <==
 [1/2] Compiling [32mbuild/.conf_check_9f4e1a1ff328a1e8411b45269d846fdb/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_9f4e1a1ff328a1e8411b45269d846fdb/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_9f4e1a1ff328a1e8411b45269d846fdb/testbuild/test.cpp.1.o']
 [2/2] Linking [33mbuild/.conf_check_9f4e1a1ff328a1e8411b45269d846fdb/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_9f4e1a1ff328a1e8411b45269d846fdb/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_9f4e1a1ff328a1e8411b45269d846fdb/testbuild/testprog']
 yes
 --------------------------------------------------------------------------
 Checking for header net/ethernet.h
@@ -1442,10 +1442,10 @@ int main(int argc, char **argv) {
 <==
 [1/2] Compiling [32mbuild/.conf_check_6e41348326de2b334c4f59de3729bd6a/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_6e41348326de2b334c4f59de3729bd6a/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_6e41348326de2b334c4f59de3729bd6a/testbuild/test.cpp.1.o']
 [2/2] Linking [33mbuild/.conf_check_6e41348326de2b334c4f59de3729bd6a/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_6e41348326de2b334c4f59de3729bd6a/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_6e41348326de2b334c4f59de3729bd6a/testbuild/testprog']
 yes
 --------------------------------------------------------------------------
 Checking for header linux/if_tun.h
@@ -1460,22 +1460,22 @@ int main(int argc, char **argv) {
 <==
 [1/2] Compiling [32mbuild/.conf_check_8e878b6598e0eb4487674343c0115934/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_8e878b6598e0eb4487674343c0115934/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_8e878b6598e0eb4487674343c0115934/testbuild/test.cpp.1.o']
 err: ../test.cpp:1:10: fatal error: 'linux/if_tun.h' file not found
 #include <linux/if_tun.h>
          ^~~~~~~~~~~~~~~~
 1 error generated.
 
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/fd-net-device: Test does not build: Traceback (most recent call last):
-  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Configure.py", line 333, in run_build
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/fd-net-device: Test does not build: Traceback (most recent call last):
+  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Configure.py", line 333, in run_build
     bld.compile()
-  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Build.py", line 176, in compile
+  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Build.py", line 176, in compile
     raise Errors.BuildError(self.producer.error)
 waflib.Errors.BuildError: Build failed
  -> task in 'testprog' failed with exit status 1 (run with -v to display more information)
 
 not found
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/fd-net-device: The configuration failed
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/fd-net-device: The configuration failed
 --------------------------------------------------------------------------
 Checking for header netpacket/packet.h
 ==>
@@ -1489,22 +1489,22 @@ int main(int argc, char **argv) {
 <==
 [1/2] Compiling [32mbuild/.conf_check_fff5469bff6310ddc2b775af42c41fc5/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_fff5469bff6310ddc2b775af42c41fc5/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_fff5469bff6310ddc2b775af42c41fc5/testbuild/test.cpp.1.o']
 err: ../test.cpp:1:10: fatal error: 'netpacket/packet.h' file not found
 #include <netpacket/packet.h>
          ^~~~~~~~~~~~~~~~~~~~
 1 error generated.
 
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/fd-net-device: Test does not build: Traceback (most recent call last):
-  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Configure.py", line 333, in run_build
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/fd-net-device: Test does not build: Traceback (most recent call last):
+  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Configure.py", line 333, in run_build
     bld.compile()
-  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Build.py", line 176, in compile
+  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Build.py", line 176, in compile
     raise Errors.BuildError(self.producer.error)
 waflib.Errors.BuildError: Build failed
  -> task in 'testprog' failed with exit status 1 (run with -v to display more information)
 
 not found
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/fd-net-device: The configuration failed
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/fd-net-device: The configuration failed
 --------------------------------------------------------------------------
 Checking for NSC location
 not found
@@ -1512,7 +1512,7 @@ not found
 Checking for program 'pkg-config'
 not found
 find program=['pkg-config'] paths=['/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/bin', '/Library/Frameworks/Python.framework/Versions/3.8/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/Applications/VMware Fusion.app/Contents/Public', '/usr/local/go/bin', '/usr/local/share/dotnet', '~/.dotnet/tools', '/Library/Frameworks/Mono.framework/Versions/Current/Commands', '/Applications/Wireshark.app/Contents/MacOS', '/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin'] var='PKGCONFIG' -> None
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/stats: Could not find the program ['pkg-config']
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/stats: Could not find the program ['pkg-config']
 --------------------------------------------------------------------------
 Checking for header linux/if_tun.h
 ==>
@@ -1526,22 +1526,22 @@ int main(int argc, char **argv) {
 <==
 [1/2] Compiling [32mbuild/.conf_check_8e878b6598e0eb4487674343c0115934/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_8e878b6598e0eb4487674343c0115934/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/.conf_check_8e878b6598e0eb4487674343c0115934/testbuild/test.cpp.1.o']
 err: ../test.cpp:1:10: fatal error: 'linux/if_tun.h' file not found
 #include <linux/if_tun.h>
          ^~~~~~~~~~~~~~~~
 1 error generated.
 
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/tap-bridge: Test does not build: Traceback (most recent call last):
-  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Configure.py", line 333, in run_build
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/tap-bridge: Test does not build: Traceback (most recent call last):
+  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Configure.py", line 333, in run_build
     bld.compile()
-  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Build.py", line 176, in compile
+  File "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/.waf3-2.0.18-ff4ae9f5cc05353d3dc3aeff8854ae69/waflib/Build.py", line 176, in compile
     raise Errors.BuildError(self.producer.error)
 waflib.Errors.BuildError: Build failed
  -> task in 'testprog' failed with exit status 1 (run with -v to display more information)
 
 not found
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/tap-bridge: The configuration failed
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/tap-bridge: The configuration failed
 --------------------------------------------------------------------------
 Checking for python module 'gi'
 ['/Library/Frameworks/Python.framework/Versions/3.8/bin/python3', '-c', "\nimport gi as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n\tprint(str(version))\nelse:\n\tprint('unknown version')\n"]
@@ -1550,7 +1550,7 @@ err: Traceback (most recent call last):
 ModuleNotFoundError: No module named 'gi'
 
 not found
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/visualizer: Could not find the python module 'gi'
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/visualizer: Could not find the python module 'gi'
 --------------------------------------------------------------------------
 Checking for python module 'gi.repository.GObject'
 ['/Library/Frameworks/Python.framework/Versions/3.8/bin/python3', '-c', "\nimport gi.repository.GObject as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n\tprint(str(version))\nelse:\n\tprint('unknown version')\n"]
@@ -1559,7 +1559,7 @@ err: Traceback (most recent call last):
 ModuleNotFoundError: No module named 'gi'
 
 not found
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/visualizer: Could not find the python module 'gi.repository.GObject'
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/visualizer: Could not find the python module 'gi.repository.GObject'
 --------------------------------------------------------------------------
 Checking for python module 'cairo'
 ['/Library/Frameworks/Python.framework/Versions/3.8/bin/python3', '-c', "\nimport cairo as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n\tprint(str(version))\nelse:\n\tprint('unknown version')\n"]
@@ -1568,7 +1568,7 @@ err: Traceback (most recent call last):
 ModuleNotFoundError: No module named 'cairo'
 
 not found
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/visualizer: Could not find the python module 'cairo'
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/visualizer: Could not find the python module 'cairo'
 --------------------------------------------------------------------------
 Checking for python module 'pygraphviz'
 ['/Library/Frameworks/Python.framework/Versions/3.8/bin/python3', '-c', "\nimport pygraphviz as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n\tprint(str(version))\nelse:\n\tprint('unknown version')\n"]
@@ -1577,7 +1577,7 @@ err: Traceback (most recent call last):
 ModuleNotFoundError: No module named 'pygraphviz'
 
 not found
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/visualizer: Could not find the python module 'pygraphviz'
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/visualizer: Could not find the python module 'pygraphviz'
 --------------------------------------------------------------------------
 Checking for python module 'gi.repository.Gtk'
 ['/Library/Frameworks/Python.framework/Versions/3.8/bin/python3', '-c', "\nimport gi.repository.Gtk as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n\tprint(str(version))\nelse:\n\tprint('unknown version')\n"]
@@ -1586,7 +1586,7 @@ err: Traceback (most recent call last):
 ModuleNotFoundError: No module named 'gi'
 
 not found
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/visualizer: Could not find the python module 'gi.repository.Gtk'
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/visualizer: Could not find the python module 'gi.repository.Gtk'
 --------------------------------------------------------------------------
 Checking for python module 'gi.repository.Gdk'
 ['/Library/Frameworks/Python.framework/Versions/3.8/bin/python3', '-c', "\nimport gi.repository.Gdk as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n\tprint(str(version))\nelse:\n\tprint('unknown version')\n"]
@@ -1595,7 +1595,7 @@ err: Traceback (most recent call last):
 ModuleNotFoundError: No module named 'gi'
 
 not found
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/visualizer: Could not find the python module 'gi.repository.Gdk'
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/visualizer: Could not find the python module 'gi.repository.Gdk'
 --------------------------------------------------------------------------
 Checking for python module 'gi.repository.Pango'
 ['/Library/Frameworks/Python.framework/Versions/3.8/bin/python3', '-c', "\nimport gi.repository.Pango as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n\tprint(str(version))\nelse:\n\tprint('unknown version')\n"]
@@ -1604,7 +1604,7 @@ err: Traceback (most recent call last):
 ModuleNotFoundError: No module named 'gi'
 
 not found
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/visualizer: Could not find the python module 'gi.repository.Pango'
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/visualizer: Could not find the python module 'gi.repository.Pango'
 --------------------------------------------------------------------------
 Checking for python module 'gi.repository.GooCanvas'
 ['/Library/Frameworks/Python.framework/Versions/3.8/bin/python3', '-c', "\nimport gi.repository.GooCanvas as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n\tprint(str(version))\nelse:\n\tprint('unknown version')\n"]
@@ -1613,7 +1613,7 @@ err: Traceback (most recent call last):
 ModuleNotFoundError: No module named 'gi'
 
 not found
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1/src/visualizer: Could not find the python module 'gi.repository.GooCanvas'
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/src/visualizer: Could not find the python module 'gi.repository.GooCanvas'
 --------------------------------------------------------------------------
 Checking for program 'sudo'
 /usr/bin/sudo
@@ -1622,19 +1622,19 @@ find program=['sudo'] paths=['/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/C
 Checking for program 'valgrind'
 not found
 find program=['valgrind'] paths=['/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/bin', '/Library/Frameworks/Python.framework/Versions/3.8/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/Applications/VMware Fusion.app/Contents/Public', '/usr/local/go/bin', '/usr/local/share/dotnet', '~/.dotnet/tools', '/Library/Frameworks/Mono.framework/Versions/Current/Commands', '/Applications/Wireshark.app/Contents/MacOS', '/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin'] var='VALGRIND' -> None
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1: Could not find the program ['valgrind']
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1: Could not find the program ['valgrind']
 --------------------------------------------------------------------------
 Checking for program 'pkg-config'
 not found
 find program=['pkg-config'] paths=['/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/bin', '/Library/Frameworks/Python.framework/Versions/3.8/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/Applications/VMware Fusion.app/Contents/Public', '/usr/local/go/bin', '/usr/local/share/dotnet', '~/.dotnet/tools', '/Library/Frameworks/Mono.framework/Versions/Current/Commands', '/Applications/Wireshark.app/Contents/MacOS', '/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin'] var='PKGCONFIG' -> None
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1: Could not find the program ['pkg-config']
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1: Could not find the program ['pkg-config']
 --------------------------------------------------------------------------
 libgcrypt-config
 not found
 find program=['libgcrypt-config'] paths=['/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/bin', '/Library/Frameworks/Python.framework/Versions/3.8/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/Applications/VMware Fusion.app/Contents/Public', '/usr/local/go/bin', '/usr/local/share/dotnet', '~/.dotnet/tools', '/Library/Frameworks/Mono.framework/Versions/Current/Commands', '/Applications/Wireshark.app/Contents/MacOS', '/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin'] var='LIBGCRYPT_CONFIG' -> None
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1: Could not find the program ['libgcrypt-config']
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1: Could not find the program ['libgcrypt-config']
 --------------------------------------------------------------------------
 Checking for program 'doxygen'
 not found
 find program=['doxygen'] paths=['/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/bin', '/Library/Frameworks/Python.framework/Versions/3.8/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/Applications/VMware Fusion.app/Contents/Public', '/usr/local/go/bin', '/usr/local/share/dotnet', '~/.dotnet/tools', '/Library/Frameworks/Mono.framework/Versions/Current/Commands', '/Applications/Wireshark.app/Contents/MacOS', '/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin'] var='DOXYGEN' -> None
-from /Users/haoranchen/Desktop/Cmpe206/Assignment1/ns-allinone-3.30.1/ns-3.30.1: Could not find the program ['doxygen']
+from /Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1: Could not find the program ['doxygen']
