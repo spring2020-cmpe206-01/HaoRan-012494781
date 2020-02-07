@@ -91,23 +91,35 @@ main (int argc, char *argv[])
 
   UdpEchoServerHelper echoServer (9);
 
+  /* I set a new port number and Add the application to the container */
+  UdpEchoServerHelper echoServer2 (10);
+
   ApplicationContainer serverApps = echoServer.Install (csmaNodes.Get (nCsma));
+  serverApps.Add(echoServer2.Install(csmaNodes.Get(nCsma)));
+
   serverApps.Start (Seconds (1.0));
   serverApps.Stop (Seconds (10.0));
 
+
   UdpEchoClientHelper echoClient (csmaInterfaces.GetAddress (nCsma), 9);
+  UdpEchoClientHelper echoClient2 (csmaInterfaces.GetAddress (nCsma), 10);
   echoClient.SetAttribute ("MaxPackets", UintegerValue (1));
   echoClient.SetAttribute ("Interval", TimeValue (Seconds (1.0)));
   echoClient.SetAttribute ("PacketSize", UintegerValue (1024));
+  echoClient2.SetAttribute ("MaxPackets", UintegerValue (1));
+  echoClient2.SetAttribute ("Interval", TimeValue (Seconds (1.0)));
+  echoClient2.SetAttribute ("PacketSize", UintegerValue (1024));
+  
 
   ApplicationContainer clientApps = echoClient.Install (p2pNodes.Get (0));
+  clientApps.Add(echoClient2.Install (p2pNodes.Get (0)));
   clientApps.Start (Seconds (2.0));
   clientApps.Stop (Seconds (10.0));
 
   Ipv4GlobalRoutingHelper::PopulateRoutingTables ();
 
-  pointToPoint.EnablePcapAll ("second");
-  csma.EnablePcap ("second", csmaDevices.Get (1), true);
+  pointToPoint.EnablePcapAll ("mysecond-hw1");
+  csma.EnablePcap ("mysecond-hw1", csmaDevices.Get (1), true);
 
   Simulator::Run ();
   Simulator::Destroy ();
