@@ -117,7 +117,7 @@ int main (int argc, char *argv[])
 
     // Random propagation model with uniform random distribution
 	Ptr<LogNormalPropagationLossModel> randomProp = CreateObject<LogNormalPropagationLossModel> ();
-	randomProp->SetAttribute("Variable", StringValue ("ns3::NormalRandomVariable[Mean=0|Variance=4]"));
+	randomProp->SetAttribute("Variable", StringValue ("ns3::NormalRandomVariable[Mean=0|Variance=2]"));
 	randomProp->SetAttribute("Exponent", DoubleValue (3.0));
         for (double distance = 200.0; distance <= 400.0; distance += 50.0)
 	{
@@ -129,7 +129,7 @@ int main (int argc, char *argv[])
 		plot.AddDataset(dataset);
 	}
 	
-    plot.SetTitle ("LogNormalPropagationLossModel");
+    plot.SetTitle ("LogNormalShadowinglPropagationLossModel");
     gnuplots.AddPlot (plot);
   }
   
