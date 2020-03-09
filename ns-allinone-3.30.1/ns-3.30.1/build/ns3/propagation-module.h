@@ -13,6 +13,7 @@
 #include "jakes-process.h"
 #include "jakes-propagation-loss-model.h"
 #include "kun-2600-mhz-propagation-loss-model.h"
+#include "lognormal-shadowing-loss-model.h"
 #include "okumura-hata-propagation-loss-model.h"
 #include "propagation-cache.h"
 #include "propagation-delay-model.h"

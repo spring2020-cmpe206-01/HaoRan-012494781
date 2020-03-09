@@ -5866,12 +5866,12 @@
   },
   {
     "directory": "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build",
-    "command": "/usr/bin/clang++ -O0 -ggdb -g3 -Wall -Werror -Wno-unused-local-typedefs -Wno-potentially-evaluated-expression -std=c++11 -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 ../scratch/scratch-simulator.cc -c -o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/scratch/scratch-simulator.cc.5.o",
+    "command": "/usr/bin/clang++ -O0 -ggdb -g3 -Wall -Werror -Wno-unused-local-typedefs -Wno-potentially-evaluated-expression -std=c++11 -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 ../scratch/scratch-simulator.cc -c -o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/scratch/scratch-simulator.cc.2.o",
     "file": "../scratch/scratch-simulator.cc"
   },
   {
     "directory": "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build",
-    "command": "/usr/bin/clang++ -O0 -ggdb -g3 -Wall -Werror -Wno-unused-local-typedefs -Wno-potentially-evaluated-expression -std=c++11 -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 ../scratch/subdir/scratch-simulator-subdir.cc -c -o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/scratch/subdir/scratch-simulator-subdir.cc.6.o",
+    "command": "/usr/bin/clang++ -O0 -ggdb -g3 -Wall -Werror -Wno-unused-local-typedefs -Wno-potentially-evaluated-expression -std=c++11 -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 ../scratch/subdir/scratch-simulator-subdir.cc -c -o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/scratch/subdir/scratch-simulator-subdir.cc.3.o",
     "file": "../scratch/subdir/scratch-simulator-subdir.cc"
   },
   {
@@ -5936,17 +5936,27 @@
   },
   {
     "directory": "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build",
-    "command": "/usr/bin/clang++ -O0 -ggdb -g3 -Wall -Werror -Wno-unused-local-typedefs -Wno-potentially-evaluated-expression -std=c++11 -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 ../scratch/myfirst-hw1.cc -c -o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/scratch/myfirst-hw1.cc.3.o",
+    "command": "/usr/bin/clang++ -O0 -ggdb -g3 -Wall -Werror -Wno-unused-local-typedefs -Wno-potentially-evaluated-expression -std=c++11 -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 ../scratch/myfirst-hw1.cc -c -o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/scratch/myfirst-hw1.cc.1.o",
     "file": "../scratch/myfirst-hw1.cc"
   },
   {
     "directory": "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build",
-    "command": "/usr/bin/clang++ -O0 -ggdb -g3 -Wall -Werror -Wno-unused-local-typedefs -Wno-potentially-evaluated-expression -std=c++11 -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 ../scratch/mysecond-hw1.cc -c -o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/scratch/mysecond-hw1.cc.8.o",
+    "command": "/usr/bin/clang++ -O0 -ggdb -g3 -Wall -Werror -Wno-unused-local-typedefs -Wno-potentially-evaluated-expression -std=c++11 -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 ../scratch/mysecond-hw1.cc -c -o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/scratch/mysecond-hw1.cc.5.o",
     "file": "../scratch/mysecond-hw1.cc"
   },
   {
     "directory": "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build",
-    "command": "/usr/bin/clang++ -O0 -ggdb -g3 -Wall -Werror -Wno-unused-local-typedefs -Wno-potentially-evaluated-expression -std=c++11 -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 ../scratch/mythird-hw1.cc -c -o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/scratch/mythird-hw1.cc.7.o",
+    "command": "/usr/bin/clang++ -O0 -ggdb -g3 -Wall -Werror -Wno-unused-local-typedefs -Wno-potentially-evaluated-expression -std=c++11 -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 ../scratch/mythird-hw1.cc -c -o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/scratch/mythird-hw1.cc.4.o",
     "file": "../scratch/mythird-hw1.cc"
+  },
+  {
+    "directory": "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build",
+    "command": "/usr/bin/clang++ -O0 -ggdb -g3 -Wall -Werror -Wno-unused-local-typedefs -Wno-potentially-evaluated-expression -std=c++11 -fPIC -Isrc/propagation -I../src/propagation -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 ../src/propagation/model/lognormal-shadowing-loss-model.cc -c -o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/src/propagation/model/lognormal-shadowing-loss-model.cc.1.o",
+    "file": "../src/propagation/model/lognormal-shadowing-loss-model.cc"
+  },
+  {
+    "directory": "/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build",
+    "command": "/usr/bin/clang++ -O0 -ggdb -g3 -Wall -Werror -Wno-unused-local-typedefs -Wno-potentially-evaluated-expression -std=c++11 -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 ../scratch/random-propagation-loss-distance-expt.cc -c -o/Users/haoranchen/Desktop/Cmpe206/Assignment1/HaoRan-012494781/ns-allinone-3.30.1/ns-3.30.1/build/scratch/random-propagation-loss-distance-expt.cc.6.o",
+    "file": "../scratch/random-propagation-loss-distance-expt.cc"
   }
 ]
